@@ -84,5 +84,5 @@ class Socket extends OBSWebSocket {
 	}
 }
 
-export const NUM_SOCKETS = 2;
+export const NUM_SOCKETS = 4;
 export const sockets = new Array(NUM_SOCKETS).fill(null).map(() => new Socket());
